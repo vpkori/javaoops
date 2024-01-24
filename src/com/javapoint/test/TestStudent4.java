@@ -8,8 +8,9 @@ class Student4{
 	  name=n;  
 	 }  
 	 void displayInformation(){System.out.println(rollno+" "+name);}  
-	}  
-
+	
+	void displayInfo(){System.out.println("My name is " +name);}  
+	}
 public class TestStudent4 {
 
 	public static void main(String[] args) {
@@ -19,7 +20,8 @@ public class TestStudent4 {
 		  s1.insertRecord(111,"Karan");  
 		  s2.insertRecord(222,"Aryan");  
 		  s1.displayInformation();  
-		  s2.displayInformation();  
+		  s2.displayInformation(); 
+		  s1.displayInfo();
 	}
 
 }
